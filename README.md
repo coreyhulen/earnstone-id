@@ -41,15 +41,3 @@ Example of how to use the REST interface to generate remote ids
 
 For multi-machine configuration make sure to change the data center and worker ids 
 located in ./config/eid.properties
-
-
-### Maven repository
-We have a github hosted Maven repository located [here](https://github.com/earnstone/maven-repo).
-To use this repository include the following tag in your pom.xml
-
-    <repositories>
-        <repository>
-            <id>earnstone-repo</id>
-            <url>https://github.com/earnstone/maven-repo/raw/master/releases</url>
-        </repository>
-    </repositories>
