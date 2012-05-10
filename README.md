@@ -18,10 +18,10 @@ differences between Snowflake and EID are
     more responsibility on the person configuring the EID services.  So **be careful** 
     when configuring the data center and worker ids. 
 
+### Download
+[eid-0.3-all.zip](https://github.com/coreyhulen/blog/raw/master/eid-0.3-all.zip) 
 
 ### How to Use EID
-Download the complete application (eid-0.3-all.zip) from our repository located 
-[here](https://github.com/earnstone/maven-repo/tree/master/releases/com/earnstone/id/eid/0.3). 
 Extract the files and start/stop the server using the following commands 
 
     Usage: server.sh [-d] {start|stop|run|restart|check|supervise} [ CONFIGS ... ] 
